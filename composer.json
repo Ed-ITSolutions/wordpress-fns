@@ -1,0 +1,19 @@
+{
+  "name": "ed-itsolutions/wordpress-fns",
+  "description": "Functions that make working with WordPress easier.",
+  "require": {
+    "php": "^5.3.3 || ^7.0"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Adam Laycock",
+      "email": "adam@arcath.net",
+      "homepage": "https://arcath.net",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "files": ["wordpress-fns.php"]
+  }
+}
