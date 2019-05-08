@@ -24,6 +24,12 @@ Returns the given posts `$postId` featured image at size `$imageSize`.
 
 Returns `false` if the post does not have a featured image.
 
+## wordpress_fns_format_as_date($date)
+
+Returns the given date using the WordPress sites date formatting.
+
+`$date` can either be a timestamp or anything that [strtotime](https://www.php.net/manual/en/function.strtotime.php) can handle.
+
 ## wordpress_fns_get_attachment_id_from_url($url)
 
 Returns the id of the attachment from the url. Extremely useful when working with meta boxes etc... that store an images URL instead of its attachment id.
