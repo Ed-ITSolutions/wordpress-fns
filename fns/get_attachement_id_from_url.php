@@ -14,6 +14,11 @@ function wordpress_fns_get_attachment_id_from_url($url){
   if(count($attachment) != 0){
     return $attachment[0];
   }else{
+    if(strpos($url, '-scaled') !== false){
+      // Try again without -scaled
+      return wordpress_fns_get_attachment_id_from_url(str_replace('-scaled', '', $url));
+    }
+
     // Return false if not found.
     return false;
   }
