@@ -2,7 +2,7 @@
   "name": "ed-itsolutions/wordpress-fns",
   "description": "Functions that make working with WordPress easier.",
   "require": {
-    "php": "^5.3.3 || ^7.0"
+    "php": ">5.3.3"
   },
   "license": "MIT",
   "authors": [
