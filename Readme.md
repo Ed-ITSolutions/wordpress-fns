@@ -42,9 +42,11 @@ Returns an array of menu items that are the direct desendants of the supplied pa
 
 Returns an empty array if it couldn't find the menu item for the supplied page.
 
-## wordpress_fns_header_or_featured_image($imageSize)
+## wordpress_fns_header_or_featured_image($imageSize, $postId = 0)
 
 If the page has a featured image that image at the given size `$imageSize` will be returned, otherwise it returns the header image set in the customizer.
+
+Supplying `$postId` will return the given posts image.
 
 # Contributing
 
